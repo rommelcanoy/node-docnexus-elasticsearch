@@ -2,7 +2,7 @@ import express from 'express';
 import { Client } from '@elastic/elasticsearch';
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 const client = new Client({
   node: 'https://6083cecdc65f406387c4201028dc5597.us-east-1.aws.found.io:443',
